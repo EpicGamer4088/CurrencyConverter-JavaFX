@@ -24,7 +24,7 @@ public class ApiKeyManager
     /**
      * The folder name where the application data is stored.
      */
-    private static final String APP_FOLDER_NAME = "exchange-calculator";
+    private static final String APP_FOLDER_NAME = "currency-converter";
 
     /**
      * The file name for storing the API key.
