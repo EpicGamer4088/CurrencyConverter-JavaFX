@@ -1,4 +1,4 @@
-# Currency Calculator - JavaFX
+# Currency Converter - JavaFX
 
 A simple currency converter based on JavaFX that retrieves real-time exchange rates using the FreeCurrencyAPI and converts currencies.
 
