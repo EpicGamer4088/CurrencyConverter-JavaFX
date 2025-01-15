@@ -1,13 +1,16 @@
 package com.currencycalc.currencycalculatorjavafx.utils;
 
+import com.currencycalc.currencycalculatorjavafx.App;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import java.util.Objects;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
@@ -64,8 +67,9 @@ public class ApiKeyWindow
         // Layout and styling
         VBox layout = new VBox(10, instructionLabel, apiKeyField, saveButton);
         layout.setStyle("-fx-padding: 20;");
-        Scene scene = new Scene(layout, 300, 150);
+        Scene scene = new Scene(layout, 400, 150);
         window.setScene(scene);
+        window.getIcons().add(new Image(Objects.requireNonNull(App.class.getResource("icon.png")).toExternalForm()));
 
         // Display the modal window and wait for it to close
         window.showAndWait();
