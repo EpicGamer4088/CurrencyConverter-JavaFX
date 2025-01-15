@@ -54,9 +54,12 @@ Ein einfacher Währungsrechner basierend auf JavaFX, der mithilfe der FreeCurren
 1. Besuchen Sie die Website [https://freecurrencyapi.com/](https://freecurrencyapi.com/).
 2. Registrieren Sie sich oder melden Sie sich an.
 3. Gehen Sie zu Ihrem Dashboard und Kopieren Sie den vorhandenen Default API-Key:.
+
+  ![API-KEY_location](https://github.com/user-attachments/assets/96eb89ba-1529-43b7-bec7-447d052b63a5)
+
 4. Fügen Sie den API-Key in das geöffnete Eingabefeld des Programms ein.
 
-![API-KEY_location](https://github.com/user-attachments/assets/96eb89ba-1529-43b7-bec7-447d052b63a5)
+  ![enter_api-key](https://github.com/user-attachments/assets/cba59c8c-7f96-45a2-af86-0f5294d62948)
 
 ---
 
