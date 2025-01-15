@@ -28,7 +28,7 @@ A simple currency converter based on JavaFX that retrieves real-time exchange ra
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/<your-username>/currency-calculator-javafx.git
+   git clone https://github.com/EpicGamer4088/currency-calculator-javafx.git
    cd currency-calculator-javafx
    ```
 
