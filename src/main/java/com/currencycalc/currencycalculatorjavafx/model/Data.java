@@ -5,7 +5,6 @@ import com.google.gson.annotations.SerializedName;
 
 public class Data
 {
-
     @SerializedName("AUD")
     @Expose
     private Double aud;

@@ -2,7 +2,6 @@ package com.currencycalc.currencycalculatorjavafx;
 
 import com.currencycalc.currencycalculatorjavafx.model.CurrencyData;
 import com.currencycalc.currencycalculatorjavafx.model.Data;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -12,7 +11,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import java.io.IOException;
-import java.util.Map;
 
 public class MainController
 {
