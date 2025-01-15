@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"com.currencycalc.currencycalculatorjavafx"}];updateSearchResults();
