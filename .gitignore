@@ -138,6 +138,11 @@ Thumbs.db
 
 src/main/resources/META-INF
 !documentation/
+API-KEY_location.png
+converted-result.png
+dropdown-lists_for-currency.png
+enter_api-key.png
+input-amount.png
 
 apiKeys.txt
 api_key.ser

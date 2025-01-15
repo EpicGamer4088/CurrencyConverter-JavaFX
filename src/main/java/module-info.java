@@ -6,8 +6,9 @@ module com.currencycalc.currencycalculatorjavafx {
     requires com.google.gson;
     requires java.net.http;
 
-    opens com.currencycalc.currencycalculatorjavafx to javafx.fxml;
-    opens com.currencycalc.currencycalculatorjavafx.utils to javafx.fxml;
+    opens com.currencycalc.currencycalculatorjavafx to javafx.fxml, com.google.gson;
+    opens com.currencycalc.currencycalculatorjavafx.utils to javafx.fxml, com.google.gson;
+    opens com.currencycalc.currencycalculatorjavafx.model to javafx.fxml, com.google.gson;
 
     exports com.currencycalc.currencycalculatorjavafx;
     exports com.currencycalc.currencycalculatorjavafx.utils;
