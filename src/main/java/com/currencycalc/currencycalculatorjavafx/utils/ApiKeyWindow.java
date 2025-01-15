@@ -24,6 +24,10 @@ public class ApiKeyWindow
         Button saveButton = new Button("Save");
         saveButton.setDisable(true);
 
+        instructionLabel.setFocusTraversable(false);
+        apiKeyField.setFocusTraversable(false);
+        saveButton.setFocusTraversable(false);
+
         apiKeyField.textProperty().addListener((observable, oldValue, newValue) ->
                 saveButton.setDisable(newValue.trim().isEmpty()));
 
