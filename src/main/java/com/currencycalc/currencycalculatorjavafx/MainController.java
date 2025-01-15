@@ -26,7 +26,6 @@ public class MainController
     private TextField convertedAmountField;
     private final CurrencyClient currencyClient = new CurrencyClient();
 
-
     private final Map<String, String> currencyMap = new LinkedHashMap<>()
     {{
         put("AUD", "Australian Dollar");
