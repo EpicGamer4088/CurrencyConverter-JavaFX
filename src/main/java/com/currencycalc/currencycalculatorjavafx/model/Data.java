@@ -315,7 +315,7 @@ public class Data
      *
      * @return the exchange rate for TRY.
      */
-    public Double get_try()
+    public Double getTry()
     {
         return _try;
     }
@@ -323,11 +323,11 @@ public class Data
     /**
      * Sets the exchange rate for the Turkish Lira (TRY).
      *
-     * @param _try the exchange rate to set for TRY.
+     * @param value the exchange rate to set for TRY.
      */
-    public void set_try(Double _try)
+    public void setTry(Double value)
     {
-        this._try = _try;
+        this._try = value;
     }
 
     /**
